@@ -75,7 +75,7 @@ input {
     padding: 4px;
 }
 
-button {
+button, .reset-button {
     width: 150px;
     height: 75px;
     border-radius: 15px;
@@ -98,7 +98,7 @@ button:active {
 .result-container {
    background-color: #829bb3;
    width: 150px;
-   height: 75px;
+   height: 50px;
    border-radius: 15px;
    margin-bottom: 15px;
    padding: 5px;
@@ -118,6 +118,10 @@ p {
     font-size: 20px;
 }
 
+.reset-button {
+    height: 40px;
+    font-size: 20px;
+}
 @media screen and (max-width:600px){
     body, main, div, img, h1, h2, .left-container, .right-container {
         display: flex;
